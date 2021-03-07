@@ -48,7 +48,7 @@ git config --global credential.useHttpPath true
 
 
 
-#幾種版控的流程 備忘 Git flow & GitHub flow & GitLab Flow
+# 幾種版控的流程 備忘 Git flow & GitHub flow & GitLab Flow
 
     all
 
