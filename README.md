@@ -48,6 +48,14 @@ git config --global credential.useHttpPath true
     $ git push origin master
 
 
+# 備份分支 並刪除遠端分支
+    # 當前分支更名
+    git branch --move back_name
+    # 推上去新的分支
+    git push origin -u back_name
+    # 刪除遠端分支
+    git push origin --delete name
+
 
 
 
