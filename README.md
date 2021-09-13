@@ -16,6 +16,8 @@ git tag big_cats 51d54ff
 
 git push origin big_cats
 
+git reset --hard big_cats
+
 
 
 # sourcetree
