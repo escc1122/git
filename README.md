@@ -19,6 +19,13 @@ git push origin big_cats
 git reset --hard big_cats
 
 
+# reset
+
+git reset --hard tag
+
+git reflog
+
+git reset --hand commit
 
 # sourcetree
 https://community.atlassian.com/t5/Sourcetree-questions/Git-Credential-Manager-for-Windows-Popups/qaq-p/579905
