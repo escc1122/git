@@ -12,7 +12,8 @@ git clean -f
 git clean -f -d
 
 # tag
-git push origin v1.5
+git tag big_cats 51d54ff
+git push origin big_cats
 
 
 
