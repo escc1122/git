@@ -18,6 +18,8 @@ git push origin big_cats
 
 git reset --hard big_cats
 
+git push origin --tags
+
 
 # reset
 
