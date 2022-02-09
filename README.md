@@ -46,6 +46,7 @@ git config --global credential.useHttpPath true
     $ git fetch -t origin
 
     # 從上一版本建立 branch (0.2.4 代表上一個版本)
+    # -b 直接建立分支
     $ git checkout -b patch-1 origin/0.2.4
 
     # 把修正個 commit 抓到 patch-1 branch
