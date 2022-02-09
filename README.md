@@ -96,3 +96,18 @@ git config --global credential.useHttpPath true
     3.GitLab Flow
 
     https://zhuanlan.zhihu.com/p/65781620
+    
+
+# 因為某些原因 必須要把master弄到跟其他分支一樣
+    git fetch --all
+
+    git clean -f -d
+
+    # 先reset到某個分支的起點tag
+    git reset --hard "Tag"
+
+    # merge 想變成的遠端分支
+    git merge origin/"branch"
+
+    # 無視版本順序強推,需要打開權限
+    git push -f
