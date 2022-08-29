@@ -111,3 +111,9 @@ git config --global credential.useHttpPath true
 
     # 無視版本順序強推,需要打開權限
     git push -f
+    
+# 建新分支
+    git fetch --all
+    git checkout master
+    git pull
+    git checkout -b "feature/"
