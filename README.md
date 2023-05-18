@@ -128,4 +128,4 @@ git config --global credential.useHttpPath true
     git checkout master
     git pull
     git checkout -b "feature/"
-    git checkout -b "feature/" "origin/branch_name | tag_name"
+    git checkout -b "feature/" "branch_name | tag_name"
