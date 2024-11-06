@@ -96,6 +96,8 @@ git config --global credential.useHttpPath true
 
     https://cloud.tencent.com/developer/article/1646937
 
+    https://viiisit.com/posts/git-flow-gitlab-flow-github-flow-trunk-based-development/
+
     1.Git flow
 
     https://blog.hellojcc.tw/the-flaw-of-git-flow/
